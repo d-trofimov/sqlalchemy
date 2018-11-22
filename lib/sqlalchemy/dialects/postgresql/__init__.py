@@ -22,7 +22,7 @@ from .dml import insert, Insert
 from .ranges import INT4RANGE, INT8RANGE, NUMRANGE, DATERANGE, TSRANGE, \
     TSTZRANGE
 
-base.dialect = dialect = psycopg2.dialect
+base.dialect = dialect = pygresql.dialect
 
 
 __all__ = (
